@@ -253,7 +253,7 @@ button{
 
 /* Hide audio controls */
 audio {
-    display: none; /* Hide the audio element */
+    display:none; 
 }
 
 .footnote{
