@@ -1,0 +1,288 @@
+body{
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-navigation{
+    position: fixed;
+    top:0;
+    width:100%;
+    padding: 2%;
+   background-color:#EEF0D1;
+}
+
+a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 45px;
+    font-family: "Chilanka", cursive;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding-left: 1.6%;
+    padding-right: 1.6%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+
+a:focus, a.active {
+    background-color: rgb(204, 216, 165);
+}
+
+.top-navigation :hover {
+    background-color: #d1c92e;
+}
+
+.home{
+    width: 90%;
+    height: fit-content;
+    display: inline-flex;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 2%;
+    padding: 1%;
+    background: hsl(65, 55%, 64%, 0.5);
+    border-radius: 10px;
+}
+
+.welcome-text{
+    font-family: "Graduate", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    text-align: center;
+}
+
+.about-me{
+    width: 90%;
+    height: fit-content;
+    display: grid;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    background-color: 	hsl(48, 58%, 74%, 0.5);
+    border-radius: 10px;
+}
+
+.about-me-title{
+    background-color: transparent;
+    text-align: center;
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: -45px;
+    margin-bottom: -50px;
+}
+
+.about-me-info-and-pic{
+    display: inline-flex;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+p.about-me-info{
+    text-align: justify;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 10px;
+}
+
+.compsci-journey{
+    width: 90%;
+    height: fit-content;
+    display: grid;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: hsl(65, 55%, 64%, 0.5);
+    border-radius: 10px;
+}
+
+.compsci-journey-title{
+    background-color: transparent;
+    text-align: center;
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: -45px;
+    margin-bottom: -50px;
+}
+
+.compsci-journey-info-and-pic{
+    display: inline-flex;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+p.compsci-journey-info{
+    text-align: justify;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.fun-facts{
+    width: 90%;
+    height: fit-content;
+    display: grid;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: hsl(48, 58%, 74%, 0.5);
+    border-radius: 10px;
+}
+
+.fun-facts-title{
+    background-color: transparent;
+    text-align: center;
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: -45px;
+    margin-bottom: -50px;
+}
+
+.fun-facts-info-and-pic{
+    display: inline-flex;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+p.fun-facts-info{
+    text-align: justify;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.links{
+    width: 90%;
+    height: fit-content;
+    display: grid;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 2%;
+    padding: 1%;
+    background: #cdd67180;
+    border-radius: 10px;
+}
+
+.links-title{
+    background-color: transparent;
+    text-align: center;
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: -45px;
+    margin-bottom: -50px;
+}
+
+.links-container-part-1{
+    display: inline-flex
+}
+
+button{
+    background-color: hsl(48, 64%, 77%);
+    font-family: "Patrick Hand", cursive;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0px 9px 12px #8e8b5d;
+    border: none;
+    height: 150px;
+    width: 300px;
+}
+
+.email:hover{
+    background-image: url("assets/email-icon-resized3.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(120%);
+}
+
+.linkedin:hover{
+    background-image: url("assets/linkedin-resized.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(120%);
+}
+
+.facebook:hover{
+    background-image: url("assets/facebook-resized.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(120%);
+}
+
+.spotify:hover{
+    background-image: url("assets/spotify\ resized\ 2.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(120%);
+}
+
+/* Hide audio controls */
+audio {
+    display: none; /* Hide the audio element */
+}
+
+.footnote{
+    width: 90%;
+    height: fit-content;
+    display: grid;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background-color: hsl(48, 58%, 74%, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+p.footnote-text1{
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+p.footnote-text2{
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -10px;
+}
