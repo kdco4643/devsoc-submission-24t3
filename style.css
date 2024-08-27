@@ -189,6 +189,7 @@ p.fun-facts-info{
     padding: 1%;
     background: #cdd67180;
     border-radius: 10px;
+    align-items: center;
 }
 
 .links-title{
@@ -203,7 +204,8 @@ p.fun-facts-info{
 }
 
 .links-container-part-1{
-    display: inline-flex
+    display: inline-flex;
+    margin-left: -15px;
 }
 
 button{
