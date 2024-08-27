@@ -121,16 +121,18 @@
           Your browser does not support the audio element.
         </audio>
 
-        <script>
-            if (navigator.getAutoplayPolicy("mediaelement") === "disallowed") {
-                document.write(5 + 6);
-            }
-        </script>
-
         <div class="footnote">
             <p class="footnote-text1">Hopefully you guys enjoyed the relaxing background music </p>
+            <p id ="demo"></p>
             <p class="footnote-text2">Note that all images used here are taken from Canva and music was taken from YouTube</p>
         </div>
+
+        <script>
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            if (navigator.getAutoplayPolicy("mediaelement") === "disallowed") {
+                document.getElementById("demo").innerHTML = "not working";
+            }
+        </script>
 
     </body>
 </html>
