@@ -116,10 +116,16 @@
             </div>
         </div>
 
-        <audio controls autoplay>
+        <audio id="music" autoplay>
             <source src="assets/studio-ghibli.mp3" type="audio/mp3">
           Your browser does not support the audio element.
         </audio>
+
+        <script>
+            if (navigator.getAutoplayPolicy("mediaelement") === "disallowed") {
+                document.write(5 + 6);
+            }
+        </script>
 
         <div class="footnote">
             <p class="footnote-text1">Hopefully you guys enjoyed the relaxing background music </p>
