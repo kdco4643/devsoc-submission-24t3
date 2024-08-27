@@ -251,11 +251,6 @@ button{
     filter: brightness(120%);
 }
 
-/* Hide audio controls */
-audio {
-    display:none; 
-}
-
 .footnote{
     width: 90%;
     height: fit-content;
@@ -275,6 +270,10 @@ p.footnote-text1{
     font-size: 25px;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+.audio-control{
+    margin-bottom: 2%;
 }
 
 p.footnote-text2{
